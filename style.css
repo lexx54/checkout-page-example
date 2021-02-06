@@ -1,3 +1,10 @@
+.price1 {
+  color: #f2994a;
+}
+.price2 {
+  color: #4e5150;
+  text-decoration: line-through;
+}
 .btn-color {
   background-color: #e0e0e0;
   border-radius: 25px;
