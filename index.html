@@ -41,30 +41,29 @@
 
     <title>Devchallenges</title>
   </head>
-  <body>
-    <div class="container-md" style="border: 1px solid red">
+  <body class="container-sm">
+    <div class="row g-0" style="border: 1px solid red">
       <!--****************************TITLE************************-->
       <div class="row">
         <h1 class="col-12">Checkout</h1>
       </div>
       <!--****************************ITEM SECTION************************-->
-      <div class="row">
+      <div class="row col-md-6 order-md-2 align-self-start items">
         <div class="col-6 mb-4">
           <img src="photo1.png" alt="" class="img-fluid rounded-3" />
         </div>
-        <div class="col-6 row mb-4">
-          <div class="col-12 g-0">Vintage BackBag</div>
-          <div class="col-6"><span class="price1">$54.99</span></div>
-          <div class="col-6"><span class="price2">$94.99</span></div>
-          <div class="w-100"></div>
+        <section class="col-6 row mb-4">
+          <h2 class="col-12 g-0 fs-5">Vintage BackBag</h2>
+          <p class="col-6 price1 m-0">$54.99</p>
+          <p class="col-6 price2 m-0">$94.99</p>
           <div
-            class="col-12 d-flex justify-content-around align-items-center border border-secondary"
+            class="col-12 mt-2 d-flex justify-content-around align-items-center border border-secondary"
           >
             <p class="col-3 m-0 text-center rounded-3 btn-color">-</p>
             <p class="col-3 m-0 text-center">1</p>
             <p class="col-3 m-0 text-center rounded-3 btn-color">+</p>
           </div>
-        </div>
+        </section>
 
         <div class="col-6 mb-4">
           <img src="photo2.png" alt="" class="img-fluid rounded-3" />
@@ -73,9 +72,8 @@
           <div class="col-12 g-0">Levi Shoes</div>
           <div class="col-6"><span class="price1">$74.99</span></div>
           <div class="col-6"><span class="price2">$124.99</span></div>
-          <div class="w-100"></div>
           <div
-            class="col-12 d-flex justify-content-around align-items-center border border-secondary"
+            class="col-12 mt-2 d-flex justify-content-around align-items-center border border-secondary"
           >
             <p class="col-3 m-0 text-center rounded-3 btn-color">-</p>
             <p class="col-3 m-0 text-center">1</p>
@@ -96,16 +94,61 @@
         </div>
       </div>
       <!--****************************DATA SECTION************************-->
-      <div class="row row-cols-1">
-        <div class="row row-cols-1">
+      <div class="row row-cols-1 col-md-6">
+        <div class="row row-cols-1 g-0 px-3">
           <h2>Contact Information</h2>
-          <p>Email</p>
-          <input type="email" name="" id="" placeholder="&#xf0e0; Email"
-          class="f-aw"/>
-          <p>Phone</p>
-          <input type="text" name="" id="" />
+          <p class="m-0 p-0 mt-2">Email</p>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="&#xf0e0; Email"
+            class="f-aw"
+          />
+          <p class="m-0 p-0 mt-2">Phone</p>
+          <input
+            type="text"
+            name=""
+            id="phone"
+            placeholder="Your Phone Number"
+          />
         </div>
-        <div class="row row-cols-1"></div>
+
+        <div class="row g-0 px-3">
+          <h2 class="col-12">Shipping Address</h2>
+          <label for="" class="col-12 mt-2">Full Name</label>
+          <input
+            type="text"
+            class="col-12"
+            value="Rodney Cotton"
+            placeholder="Your Name..."
+          />
+
+          <label for="" class="col-12 mt-2">Address</label>
+          <input type="text" class="col-12" placeholder="Your Address..." />
+
+          <label for="" class="col-12 mt-2">City</label>
+          <input type="text" class="col-12" placeholder="Your City..." />
+
+          <div class="d-flex flex-column col-6 pe-2 my-2">
+            <label class="">Country</label>
+            <select class="">
+              <option>Venezuela</option>
+              <option>France</option>
+              <option>Canada</option>
+            </select>
+          </div>
+
+          <div class="d-flex flex-column col-6 ps-2 my-2">
+            <label class="">Postal Code</label>
+            <input type="text" class="" placeholder="Your postal code" />
+          </div>
+
+          <input type="checkbox" class="col-1" />
+          <label class="col-11">Show this information for the next time</label>
+
+          <span class="offset-7 col-5 btn btn-info btn-lg mt-2">continue</span>
+        </div>
       </div>
     </div>
 
