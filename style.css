@@ -38,6 +38,28 @@ input,
   border-radius: 25px;
 }
 
+.alertMessage {
+  font-size: 0.8em;
+  color: red;
+}
+.success,
+.fail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.success {
+  background-color: green;
+}
+.fail {
+  background-color: red;
+}
 .icon-input {
   /* height: 40px; */
 }

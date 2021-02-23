@@ -94,7 +94,7 @@
         </div>
       </div>
       <!--****************************DATA SECTION************************-->
-      <div class="row row-cols-1 col-md-7 pe-4">
+      <form class="row row-cols-1 col-md-7 pe-4">
         <section class="row row-cols-1 g-0 px-3">
           <h2 class="mb-2">Contact Information</h2>
           <label for="email" class="m-0 p-0">Email</label>
@@ -104,6 +104,7 @@
             id="email"
             placeholder=" &#xf0e0; Email"
             class="icon-input"
+            required
           />
           <label for="phone" class="m-0 p-0 my-1">Phone</label>
           <input
@@ -112,6 +113,7 @@
             id="phone"
             placeholder=" Your Phone Number"
             class="icon-input"
+            required
           />
         </section>
 
@@ -124,6 +126,7 @@
             class="col-12 icon-input"
             value="Rodney Cotton"
             placeholder="Your Name..."
+            required
           />
 
           <label for="address" class="col-12 my-1">Address</label>
@@ -132,6 +135,7 @@
             class="col-12 icon-input"
             placeholder=" Your Address..."
             name="address"
+            required
           />
 
           <label for="city" class="col-12 my-1">City</label>
@@ -140,6 +144,7 @@
             class="col-12 icon-input"
             placeholder=" Your City..."
             name="city"
+            required
           />
 
           <div class="d-flex flex-column col-6 pe-2 my-2">
@@ -158,6 +163,7 @@
               class="icon-input"
               placeholder=" Your postal code"
               name="postal"
+              required
             />
           </div>
 
@@ -166,9 +172,13 @@
             >Show this information for the next time</label
           >
 
-          <span class="offset-7 col-5 btn btn-info btn-lg mt-2">continue</span>
+          <input
+            type="submit"
+            class="offset-7 col-5 btn btn-info btn-lg mt-2"
+            value="continue"
+          />
         </section>
-      </div>
+      </form>
     </div>
 
     <!-- Jquery -->
