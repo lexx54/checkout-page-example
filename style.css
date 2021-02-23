@@ -38,6 +38,22 @@ input,
   border-radius: 25px;
 }
 
+.icon-input {
+  /* height: 40px; */
+}
+.icon-input::-webkit-input-placeholder,
+.icon-input::-moz-placeholder,
+.icon-input:-ms-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+}
+
 @media screen and (min-width: 768px) {
   .items {
     margin-bottom: 10rem !important;
