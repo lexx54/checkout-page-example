@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://checkout-page-example-lexx54.vercel.app/">
       Demo
     </a>
     <span> | </span>
