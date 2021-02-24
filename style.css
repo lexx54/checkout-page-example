@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+.btn {
+  background-color: #f2994a;
+  border: none;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -76,6 +80,7 @@ input {
   outline: 0;
   display: block;
   width: 100%;
+  border: 1px solid #828282;
 }
 select {
   outline: 0;
@@ -87,7 +92,7 @@ select {
   left: 15px;
   top: 0;
   font-size: 25px;
-  color: #4b00ff;
+  color: #828282;
   height: 100%;
   display: flex;
   align-items: center;
