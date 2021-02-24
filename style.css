@@ -60,20 +60,38 @@ input,
 .fail {
   background-color: red;
 }
-.icon-input {
-  /* height: 40px; */
+
+.form-input {
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.icon-input::-webkit-input-placeholder,
-.icon-input::-moz-placeholder,
-.icon-input:-ms-input-placeholder {
-  font-family: FontAwesome;
-  font-weight: normal;
-  overflow: visible;
-  vertical-align: top;
-  display: inline-block !important;
-  padding-left: 5px;
-  padding-top: 2px;
-  color: hsl(9, 40%, 60%);
+input {
+  border: 2px solid #eee;
+  padding: 5px 10px 5px 50px;
+  font-size: 18px;
+  line-height: 30px;
+  outline: 0;
+  display: block;
+  width: 100%;
+}
+select {
+  outline: 0;
+  margin-top: 15px;
+  padding: 10px 10px;
+}
+.icon {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  font-size: 25px;
+  color: #4b00ff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
